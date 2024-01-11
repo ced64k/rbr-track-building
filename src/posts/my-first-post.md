@@ -10,51 +10,10 @@ tags:
   - center
   - right
 ---
-# This is a Heading h1
 
-## This is a Heading h2
 
-###### This is a Heading h6
+Hello, I'm working on a project, and I've uploaded a video in the WIP section. For the next step, I'd like to add some details to the road (potholes, cracks, etc.). I've created a DDS file with a set of textures captured on-site by photographing the actual road (see attached). My initial plan was to use the decal method by creating meshes with the textures and placing them on the road using the Shrinkwrap modifier. However, I came across a video where Jan uses the blending method, and I'm wondering if it's applicable in my case. I've been thinking about it for a while, but I can't figure out how to merge different textures like in the video (manhole covers, lines, cracks) since it seems I can only blend two textures per material. In short, I'd like to know if it's possible to use the DDS file I've prepared, containing textures of potholes and cracks, to position them at various points (using the UV Map) on the road, blending them with the main texture. I hope I've explained myself well, I don't speak English very well. Thank you.
 
-## Emphasis
 
-*This text will be italic*\
-*This will also be italic*
 
-**This text will be bold**\
-**This will also be bold**
-
-*You **can** combine them*
-
-## Lists
-
-### Unordered
-
-* Item 1
-* Item 2
-
-  * Item 2a
-  * Item 2b
-
-### Ordered
-
-1. Item 1
-2. Item 2
-3. Item 3
-
-   1. Item 3a
-   2. Item 3b
-
-## Links
-
-You may be using [Markdown Live Preview](https://markdownlivepreview.com/).
-
-## Blockquotes
-
-> Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.
->
-> > Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
-
-## Inline code
-
-This web site is using `markedjs/marked`.
+since you can blend two textures on ground mesh (one diffuse+one diffuse or one diffuse+one alfa), so yes you can use those decals. Just before please make a short test stage (500m) maybe as a turn or cross section and use it before you start on the main project. And will see the strongest and weak sides of your ideas...
